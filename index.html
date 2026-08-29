@@ -8,19 +8,128 @@
 </head>
 <body>
     <header>
-        <h1>Choose your perfect day:</h1>
+        <h1>Choose Your Perfect Day:</h1><img src="https://sunbeam.hackclub.com/imgs/shark1.webp" width="250"><img src="https://sunbeam.hackclub.com/imgs/ray1.webp" width="250">
+        <h4>Start by pressing your answer to the first question. To find the next question, scroll down, so do not scroll down too much at once! If it says to go to a certain number, scroll down until you see it.</h4>
     </header>
-    <p>You woke up, now what do you do?</p>
-    <ol>
-        <li><button onclick="clicked()">Get out of bed</button></li>
-        <li>Go back to sleep</li>
-    </ol>
+    <p><br><br><br>1. You woke up, now what do you do?</p>
     <ul>
-        <li>hi</li>
-        <li>hi</li>
+        <li><button onclick="Getoutofbed()">Get out of bed</button></li>
+        <li><button onclick="Gobacktosleep()">Go back to sleep</button></li>
     </ul>
-    <button onclick="clickButton()">Click me!</button>
-    <img src="https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg" width="500">
-</body>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>2. Do you want breakfast?</p>
+    <ul>
+        <li><button onclick="Eatbreakfast()">Eat breakfast</button></li>
+        <li><button onclick="Skipbreakfast()">Skip breakfast</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>3. What would you like for breakfast?</p>
+    <ul>
+	    <li><button onclick="pancakes()">pancakes</button></li>
+	    <li><button onclick="waffles()">waffles</button></li>
+	    <li><button onclick="fruit()">fruit</button></li>
+	    <li><button onclick="cereal()">cereal</button></li>
+	    <li><button onclick="candy()">candy</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>4. You are going out. How many people are coming?</p>
+    <ul>
+	    <li><button onclick="MemyselfandI()">Me Myself and I!</button></li>
+	    <li><button onclick="one()">1</button></li>
+	    <li><button onclick="two()">2</button></li>
+	    <li><button onclick="threeplus()">3+</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>5. Where are you going?</p>
+    <ul>	
+	    <li><button onclick="stayhome()">I will stay home…</button></li>
+	    <li><button onclick="amusementpark()">The amusement park!</button></li>
+	    <li><button onclick="outofworld()">Out of this world!</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>6. Where out of this world are you going?</p>
+    <ul>		
+	    <li><button onclick="planets()">To the planets!</button></li>
+	    <li><button onclick="universe()">To a different universe!</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>7. Which planets do you want to go to?</p>
+    <ul>
+	    <li><button onclick="rocky()">The rocky planets (Mercury, Venus, Earth, and Mars)</button></li>
+	    <li><button onclick="gas()">The gas planets (Jupiter, Saturn, Uranus, and Neptune)</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>8. You are there! What do you do?</p>
+	<ul>
+        <li><button onclick="land()">Land</button></li>
+	    <li><button onclick="fly()">Fly around</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>9. You are there! What do you do?</p>
+	<ul>
+        <li><button onclick="land1()">Land</button></li>
+	    <li><button onclick="fly1()">Fly around</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>10. You are at the amusement park! What do you want to do?</p>
+    <ul>
+	    <li><button onclick="getfood()">Get food!</button></li>
+	    <li><button onclick="ride()">Go on the rides!</button></li>
+	    <li><button onclick="game()">Play games at the arcade!</button></li>    
+    </ul>
+
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>11. What food do you want?</p>
+    <ul>
+        <li><button onclick="churro()">Churros</button></li>
+        <li><button onclick="funnelcake()">Funnel Cake</button></li>
+	    <li><button onclick="icecream()">Ice cream</button></li>
+	    <li><button onclick="pretzel()">Pretzel</button></li>
+	    <li><button onclick="hotdog()">Hot dog</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>12. You are at the amusement park! What do you want to do?</p>
+    <ul>
+	    <li><button onclick="getfood()">Get food!</button></li>
+	    <li><button onclick="ride()">Go on the rides!</button></li>
+	    <li><button onclick="game()">Play games at the arcade!</button></li>
+        <li><button onclick="goback()">I wanna go home.</button></li>  
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>13. Home! End of your day. Did you have fun?</p>
+        <li><button onclick="yes()">Yes</button></li>
+        <li><button onclick="no()">No</button></li>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>14. What universe do you want to go to?</p>
+    <ul>	
+	    <li><button onclick="alien()">An alien universe!</button></li>
+	    <li><button onclick="cat()">A cat universe!</button></li>
+	    <li><button onclick="dog()">A dog universe!</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>15. You arrive in the alien universe. It looks amazing. An alien walks up to you. What do you do? </p>
+    <ul>	
+	    <li><button onclick="talk()">Try to talk to it</button></li>
+	    <li><button onclick="attack()">Attack it</button></li>
+	    <li><button onclick="run()">Run away and leave the universe</button></li>
+    </ul>
+
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>16. You arrive in the cat universe. It looks amazing. An cat walks up to you. What do you do? </p>
+    <ul>	
+	    <li><button onclick="talk1()">Try to talk to it</button></li>
+	    <li><button onclick="attack1()">Attack it</button></li>
+	    <li><button onclick="run1()">Run away and try to leave the universe</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>17. You arrive in the dog universe. It looks amazing. An dog walks up to you. What do you do? </p>
+    <ul>	
+	    <li><button onclick="talk2()">Try to talk to it</button></li>
+	    <li><button onclick="attack2()">Attack it</button></li>
+	    <li><button onclick="run2()">Run away and try to leave the universe</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>18. Do you want to adopt the cat?</p>
+    <ul>
+        <li><button onclick="sure()">Sure</button></li>
+        <li><button onclick="nah()">Nah</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>19. What ride do you want to go on?</p>
+    <ul>	
+	    <li><button onclick="rollercoaster()">The roller coaster!</button></li>
+	    <li><button onclick="carousel()">The carousel!</button></li>
+	    <li><button onclick="bumpcar()">The bumper cars!</button></li>
+	    <li><button onclick="droptower()">The drop tower!</button></li>
+    </ul>
+    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>20. You are at the arcade! What do you want to play?</p>
+    <ul>	
+	    <li><button onclick="arcgame()">An arcade game!</button></li>
+	    <li><button onclick="claw()">The claw machines!</button></li>
+        <br><br><br><br><br><br><br><br><br><br><br>
+    </ul>
+
 <script src="script.js"></script>
 </html>

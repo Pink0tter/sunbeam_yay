@@ -20,6 +20,10 @@ h1{
     font-weight: 100;
 }
 
+.button{
+    font-size:medium
+}
+
 #list{
     font-family:cursive;
 }
