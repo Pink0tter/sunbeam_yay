@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+}
+main{
+    align-items: center;
+}
+body{
+    background-color: thistle;
+}
+h1{
+    font-size: 60px;
+    align-items: center;
+}
+
+.highlight{
+    background-color: rgb(194, 155, 194);
+}
+
+.bold{
+    font-weight: 100;
+}
+
+#list{
+    font-family:cursive;
+}
